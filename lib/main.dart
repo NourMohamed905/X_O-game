@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         GameBoardScreen.routeName : (_) => GameBoardScreen(),
         WelcomeScreen.routeName : (_) => WelcomeScreen(),
       },
-      initialRoute: GameBoardScreen.routeName ,
+      initialRoute: WelcomeScreen.routeName ,
     );
   }
 }
